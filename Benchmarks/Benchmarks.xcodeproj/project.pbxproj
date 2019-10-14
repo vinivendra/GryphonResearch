@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2420390D229F1C2800FF8B8A /* binary-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420390C229F1C2800FF8B8A /* binary-trees.swift */; };
+		2420390F229F1CAD00FF8B8A /* BinaryTreesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420390E229F1CAD00FF8B8A /* BinaryTreesTests.swift */; };
+		24203910229F1CB100FF8B8A /* binary-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420390C229F1C2800FF8B8A /* binary-trees.swift */; };
+		24203914229F206600FF8B8A /* SpectralNormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24203913229F206600FF8B8A /* SpectralNormTests.swift */; };
+		24203917229F23B500FF8B8A /* n-body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24203916229F23B500FF8B8A /* n-body.swift */; };
+		24203918229F23B500FF8B8A /* n-body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24203916229F23B500FF8B8A /* n-body.swift */; };
+		2420391A229F23C700FF8B8A /* NBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24203919229F23C700FF8B8A /* NBodyTests.swift */; };
+		2420391C229F30C100FF8B8A /* gryphonN-body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420391B229F30C100FF8B8A /* gryphonN-body.swift */; };
+		2420391D229F30C100FF8B8A /* gryphonN-body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420391B229F30C100FF8B8A /* gryphonN-body.swift */; };
+		2420391F229F33AE00FF8B8A /* GryphonNBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2420391E229F33AE00FF8B8A /* GryphonNBodyTests.swift */; };
+		246A15CF22A5BC56006E81DE /* spectral-norm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15CE22A5BC55006E81DE /* spectral-norm.swift */; };
+		246A15D122A5BC86006E81DE /* gryphonFannkuch-redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D022A5BC86006E81DE /* gryphonFannkuch-redux.swift */; };
+		246A15D222A5BC86006E81DE /* gryphonFannkuch-redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D022A5BC86006E81DE /* gryphonFannkuch-redux.swift */; };
+		246A15D422A5BC9D006E81DE /* gryphonSpectral-norm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D322A5BC9D006E81DE /* gryphonSpectral-norm.swift */; };
+		246A15D522A5BC9D006E81DE /* gryphonSpectral-norm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D322A5BC9D006E81DE /* gryphonSpectral-norm.swift */; };
+		246A15D722A5BCDA006E81DE /* GryphonFannkuchReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D622A5BCDA006E81DE /* GryphonFannkuchReduxTests.swift */; };
+		246A15D822A5BD02006E81DE /* spectral-norm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15CE22A5BC55006E81DE /* spectral-norm.swift */; };
+		246A15DA22A5BD12006E81DE /* GryphonSpectralNormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15D922A5BD12006E81DE /* GryphonSpectralNormTests.swift */; };
+		246A15DC22A5BD35006E81DE /* gryphonBinary-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15DB22A5BD35006E81DE /* gryphonBinary-trees.swift */; };
+		246A15DD22A5BD35006E81DE /* gryphonBinary-trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15DB22A5BD35006E81DE /* gryphonBinary-trees.swift */; };
+		246A15DF22A5BD5B006E81DE /* GryphonBinaryTreesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246A15DE22A5BD5B006E81DE /* GryphonBinaryTreesTests.swift */; };
+		24AA7AA7229D7C7E00BC6308 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AA6229D7C7E00BC6308 /* main.swift */; };
+		24AA7AAE229D81A300BC6308 /* mandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AAD229D81A300BC6308 /* mandelbrot.swift */; };
+		24AA7AB6229D821D00BC6308 /* MandelbrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AB5229D821D00BC6308 /* MandelbrotTests.swift */; };
+		24AA7ABB229D82E600BC6308 /* mandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AAD229D81A300BC6308 /* mandelbrot.swift */; };
+		24AA7ABD229D889400BC6308 /* gryphonMandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7ABC229D889400BC6308 /* gryphonMandelbrot.swift */; };
+		24AA7ABF229D895300BC6308 /* GryphonMandelbrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7ABE229D895300BC6308 /* GryphonMandelbrotTests.swift */; };
+		24AA7AC0229D897B00BC6308 /* gryphonMandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7ABC229D889400BC6308 /* gryphonMandelbrot.swift */; };
+		24AA7AC2229D8B9700BC6308 /* fannkuch-redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AC1229D8B9700BC6308 /* fannkuch-redux.swift */; };
+		24AA7AC3229D8B9700BC6308 /* fannkuch-redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AC1229D8B9700BC6308 /* fannkuch-redux.swift */; };
+		24AA7AC5229D902800BC6308 /* FannkuchReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AA7AC4229D902800BC6308 /* FannkuchReduxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24AA7AA1229D7C7E00BC6308 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2420390C229F1C2800FF8B8A /* binary-trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "binary-trees.swift"; sourceTree = "<group>"; };
+		2420390E229F1CAD00FF8B8A /* BinaryTreesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreesTests.swift; sourceTree = "<group>"; };
+		24203913229F206600FF8B8A /* SpectralNormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralNormTests.swift; sourceTree = "<group>"; };
+		24203916229F23B500FF8B8A /* n-body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "n-body.swift"; sourceTree = "<group>"; };
+		24203919229F23C700FF8B8A /* NBodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBodyTests.swift; sourceTree = "<group>"; };
+		2420391B229F30C100FF8B8A /* gryphonN-body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gryphonN-body.swift"; sourceTree = "<group>"; };
+		2420391E229F33AE00FF8B8A /* GryphonNBodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryphonNBodyTests.swift; sourceTree = "<group>"; };
+		246A15CE22A5BC55006E81DE /* spectral-norm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "spectral-norm.swift"; sourceTree = "<group>"; };
+		246A15D022A5BC86006E81DE /* gryphonFannkuch-redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gryphonFannkuch-redux.swift"; sourceTree = "<group>"; };
+		246A15D322A5BC9D006E81DE /* gryphonSpectral-norm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gryphonSpectral-norm.swift"; sourceTree = "<group>"; };
+		246A15D622A5BCDA006E81DE /* GryphonFannkuchReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryphonFannkuchReduxTests.swift; sourceTree = "<group>"; };
+		246A15D922A5BD12006E81DE /* GryphonSpectralNormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryphonSpectralNormTests.swift; sourceTree = "<group>"; };
+		246A15DB22A5BD35006E81DE /* gryphonBinary-trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gryphonBinary-trees.swift"; sourceTree = "<group>"; };
+		246A15DE22A5BD5B006E81DE /* GryphonBinaryTreesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryphonBinaryTreesTests.swift; sourceTree = "<group>"; };
+		24AA7AA3229D7C7E00BC6308 /* Benchmarks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Benchmarks; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AA7AA6229D7C7E00BC6308 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		24AA7AAD229D81A300BC6308 /* mandelbrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandelbrot.swift; sourceTree = "<group>"; };
+		24AA7AB3229D821C00BC6308 /* BenchmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AA7AB5229D821D00BC6308 /* MandelbrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotTests.swift; sourceTree = "<group>"; };
+		24AA7AB7229D821D00BC6308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AA7ABC229D889400BC6308 /* gryphonMandelbrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gryphonMandelbrot.swift; sourceTree = "<group>"; };
+		24AA7ABE229D895300BC6308 /* GryphonMandelbrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryphonMandelbrotTests.swift; sourceTree = "<group>"; };
+		24AA7AC1229D8B9700BC6308 /* fannkuch-redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fannkuch-redux.swift"; sourceTree = "<group>"; };
+		24AA7AC4229D902800BC6308 /* FannkuchReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FannkuchReduxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24AA7AA0229D7C7E00BC6308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AA7AB0229D821C00BC6308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24AA7A9A229D7C7E00BC6308 = {
+			isa = PBXGroup;
+			children = (
+				24AA7AA5229D7C7E00BC6308 /* Benchmarks */,
+				24AA7AB4229D821D00BC6308 /* BenchmarkTests */,
+				24AA7AA4229D7C7E00BC6308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24AA7AA4229D7C7E00BC6308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AA7AA3229D7C7E00BC6308 /* Benchmarks */,
+				24AA7AB3229D821C00BC6308 /* BenchmarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24AA7AA5229D7C7E00BC6308 /* Benchmarks */ = {
+			isa = PBXGroup;
+			children = (
+				24AA7AA6229D7C7E00BC6308 /* main.swift */,
+				24AA7AAD229D81A300BC6308 /* mandelbrot.swift */,
+				246A15CE22A5BC55006E81DE /* spectral-norm.swift */,
+				246A15D322A5BC9D006E81DE /* gryphonSpectral-norm.swift */,
+				24AA7ABC229D889400BC6308 /* gryphonMandelbrot.swift */,
+				24AA7AC1229D8B9700BC6308 /* fannkuch-redux.swift */,
+				246A15D022A5BC86006E81DE /* gryphonFannkuch-redux.swift */,
+				2420390C229F1C2800FF8B8A /* binary-trees.swift */,
+				246A15DB22A5BD35006E81DE /* gryphonBinary-trees.swift */,
+				24203916229F23B500FF8B8A /* n-body.swift */,
+				2420391B229F30C100FF8B8A /* gryphonN-body.swift */,
+			);
+			path = Benchmarks;
+			sourceTree = "<group>";
+		};
+		24AA7AB4229D821D00BC6308 /* BenchmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				24AA7AB5229D821D00BC6308 /* MandelbrotTests.swift */,
+				24AA7ABE229D895300BC6308 /* GryphonMandelbrotTests.swift */,
+				24AA7AC4229D902800BC6308 /* FannkuchReduxTests.swift */,
+				246A15D622A5BCDA006E81DE /* GryphonFannkuchReduxTests.swift */,
+				2420390E229F1CAD00FF8B8A /* BinaryTreesTests.swift */,
+				246A15DE22A5BD5B006E81DE /* GryphonBinaryTreesTests.swift */,
+				24203913229F206600FF8B8A /* SpectralNormTests.swift */,
+				246A15D922A5BD12006E81DE /* GryphonSpectralNormTests.swift */,
+				24203919229F23C700FF8B8A /* NBodyTests.swift */,
+				2420391E229F33AE00FF8B8A /* GryphonNBodyTests.swift */,
+				24AA7AB7229D821D00BC6308 /* Info.plist */,
+			);
+			path = BenchmarkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		246A15E022A5C7EE006E81DE /* Gryphon */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "transpileBenchmarks.sh $SRCROOT";
+			buildConfigurationList = 246A15E122A5C7EE006E81DE /* Build configuration list for PBXLegacyTarget "Gryphon" */;
+			buildPhases = (
+			);
+			buildToolPath = /bin/bash;
+			buildWorkingDirectory = /Users/vini/Desktop/Benchmarks;
+			dependencies = (
+			);
+			name = Gryphon;
+			passBuildSettingsInEnvironment = 1;
+			productName = Gryphon;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		24AA7AA2229D7C7E00BC6308 /* Benchmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AA7AAA229D7C7E00BC6308 /* Build configuration list for PBXNativeTarget "Benchmarks" */;
+			buildPhases = (
+				24AA7A9F229D7C7E00BC6308 /* Sources */,
+				246A15E422A5DCCC006E81DE /* ShellScript */,
+				24AA7AA0229D7C7E00BC6308 /* Frameworks */,
+				24AA7AA1229D7C7E00BC6308 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Benchmarks;
+			productName = Benchmarks;
+			productReference = 24AA7AA3229D7C7E00BC6308 /* Benchmarks */;
+			productType = "com.apple.product-type.tool";
+		};
+		24AA7AB2229D821C00BC6308 /* BenchmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AA7AB8229D821D00BC6308 /* Build configuration list for PBXNativeTarget "BenchmarkTests" */;
+			buildPhases = (
+				24AA7AAF229D821C00BC6308 /* Sources */,
+				24AA7AB0229D821C00BC6308 /* Frameworks */,
+				24AA7AB1229D821C00BC6308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenchmarkTests;
+			productName = BenchmarkTests;
+			productReference = 24AA7AB3229D821C00BC6308 /* BenchmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24AA7A9B229D7C7E00BC6308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Vinicius Vendramini";
+				TargetAttributes = {
+					246A15E022A5C7EE006E81DE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					24AA7AA2229D7C7E00BC6308 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					24AA7AB2229D821C00BC6308 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 24AA7A9E229D7C7E00BC6308 /* Build configuration list for PBXProject "Benchmarks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24AA7A9A229D7C7E00BC6308;
+			productRefGroup = 24AA7AA4229D7C7E00BC6308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AA7AA2229D7C7E00BC6308 /* Benchmarks */,
+				24AA7AB2229D821C00BC6308 /* BenchmarkTests */,
+				246A15E022A5C7EE006E81DE /* Gryphon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24AA7AB1229D821C00BC6308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		246A15E422A5DCCC006E81DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash transpileBenchmarks.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24AA7A9F229D7C7E00BC6308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AA7ABD229D889400BC6308 /* gryphonMandelbrot.swift in Sources */,
+				24203917229F23B500FF8B8A /* n-body.swift in Sources */,
+				246A15DC22A5BD35006E81DE /* gryphonBinary-trees.swift in Sources */,
+				24AA7AA7229D7C7E00BC6308 /* main.swift in Sources */,
+				246A15D422A5BC9D006E81DE /* gryphonSpectral-norm.swift in Sources */,
+				24AA7AC2229D8B9700BC6308 /* fannkuch-redux.swift in Sources */,
+				24AA7AAE229D81A300BC6308 /* mandelbrot.swift in Sources */,
+				246A15D122A5BC86006E81DE /* gryphonFannkuch-redux.swift in Sources */,
+				246A15CF22A5BC56006E81DE /* spectral-norm.swift in Sources */,
+				2420391C229F30C100FF8B8A /* gryphonN-body.swift in Sources */,
+				2420390D229F1C2800FF8B8A /* binary-trees.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AA7AAF229D821C00BC6308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2420390F229F1CAD00FF8B8A /* BinaryTreesTests.swift in Sources */,
+				246A15DA22A5BD12006E81DE /* GryphonSpectralNormTests.swift in Sources */,
+				24AA7AB6229D821D00BC6308 /* MandelbrotTests.swift in Sources */,
+				24203910229F1CB100FF8B8A /* binary-trees.swift in Sources */,
+				2420391D229F30C100FF8B8A /* gryphonN-body.swift in Sources */,
+				24AA7AC0229D897B00BC6308 /* gryphonMandelbrot.swift in Sources */,
+				246A15DD22A5BD35006E81DE /* gryphonBinary-trees.swift in Sources */,
+				246A15D822A5BD02006E81DE /* spectral-norm.swift in Sources */,
+				24AA7AC3229D8B9700BC6308 /* fannkuch-redux.swift in Sources */,
+				2420391F229F33AE00FF8B8A /* GryphonNBodyTests.swift in Sources */,
+				24203914229F206600FF8B8A /* SpectralNormTests.swift in Sources */,
+				246A15D522A5BC9D006E81DE /* gryphonSpectral-norm.swift in Sources */,
+				246A15D222A5BC86006E81DE /* gryphonFannkuch-redux.swift in Sources */,
+				246A15D722A5BCDA006E81DE /* GryphonFannkuchReduxTests.swift in Sources */,
+				246A15DF22A5BD5B006E81DE /* GryphonBinaryTreesTests.swift in Sources */,
+				24AA7ABB229D82E600BC6308 /* mandelbrot.swift in Sources */,
+				24AA7AC5229D902800BC6308 /* FannkuchReduxTests.swift in Sources */,
+				24AA7ABF229D895300BC6308 /* GryphonMandelbrotTests.swift in Sources */,
+				2420391A229F23C700FF8B8A /* NBodyTests.swift in Sources */,
+				24203918229F23B500FF8B8A /* n-body.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		246A15E222A5C7EE006E81DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		246A15E322A5C7EE006E81DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24AA7AA8229D7C7E00BC6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24AA7AA9229D7C7E00BC6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24AA7AAB229D7C7E00BC6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24AA7AAC229D7C7E00BC6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		24AA7AB9229D821D00BC6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BenchmarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ViniVendra.BenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24AA7ABA229D821D00BC6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BenchmarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ViniVendra.BenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246A15E122A5C7EE006E81DE /* Build configuration list for PBXLegacyTarget "Gryphon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246A15E222A5C7EE006E81DE /* Debug */,
+				246A15E322A5C7EE006E81DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AA7A9E229D7C7E00BC6308 /* Build configuration list for PBXProject "Benchmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AA7AA8229D7C7E00BC6308 /* Debug */,
+				24AA7AA9229D7C7E00BC6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AA7AAA229D7C7E00BC6308 /* Build configuration list for PBXNativeTarget "Benchmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AA7AAB229D7C7E00BC6308 /* Debug */,
+				24AA7AAC229D7C7E00BC6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AA7AB8229D821D00BC6308 /* Build configuration list for PBXNativeTarget "BenchmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AA7AB9229D821D00BC6308 /* Debug */,
+				24AA7ABA229D821D00BC6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24AA7A9B229D7C7E00BC6308 /* Project object */;
+}

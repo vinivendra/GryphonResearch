@@ -1,0 +1,22 @@
+{
+    "Benchmarks/gryphonBinary-trees.swift": {
+        "ast-dump": "Benchmarks/gryphonBinary-trees.swiftASTDump",
+        "kotlin": "GryphonKotlin/gryphonBinary-trees.kt",
+    },
+    "Benchmarks/gryphonSpectral-norm.swift": {
+        "ast-dump": "Benchmarks/gryphonSpectral-norm.swiftASTDump",
+        "kotlin": "GryphonKotlin/gryphonSpectral-norm.kt",
+    },
+    "Benchmarks/gryphonN-body.swift": {
+        "ast-dump": "Benchmarks/gryphonN-body.swiftASTDump",
+        "kotlin": "GryphonKotlin/gryphonN-body.kt",
+    },
+    "Benchmarks/gryphonFannkuch-redux.swift": {
+        "ast-dump": "Benchmarks/gryphonFannkuch-redux.swiftASTDump",
+        "kotlin": "GryphonKotlin/gryphonFannkuch-redux.kt",
+    },
+    "Benchmarks/gryphonMandelbrot.swift": {
+        "ast-dump": "Benchmarks/gryphonMandelbrot.swiftASTDump",
+        "kotlin": "GryphonKotlin/gryphonMandelbrot.kt",
+    },
+}
